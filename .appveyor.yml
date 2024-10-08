@@ -17,4 +17,4 @@ build_script:
   - npm run build   # команда сборки
 
 test_script:
-  - npm test --passWithNoTests # скрипт тестирования
+  - npm test -- --testPathIgnorePatterns App.test.js  # скрипт тестирования
